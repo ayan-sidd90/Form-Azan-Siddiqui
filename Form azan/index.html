@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+</head>
+<body>
+
+<h1 align="center">Application Form</h1>
+<p>Fields marked with <font color="red">*</font> are required.</p>
+
+<form>
+
+<fieldset>
+<legend>A. Personal Information</legend>
+
+<label>Full Name <font color="red">*</font></label><br>
+<input type="text" required><br><br>
+
+<label>Birth Date <font color="red">*</font></label><br>
+<input type="date" required><br><br>
+
+<label>Gender:</label>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female<br><br>
+
+<label>Address <font color="red">*</font></label><br>
+<textarea rows="3" cols="50" required></textarea><br><br>
+
+<label>Phone Number <font color="red">*</font></label><br>
+<input type="tel" placeholder="+92 300 1234567"><br><br>
+
+<label>Email Address <font color="red">*</font></label><br>
+<input type="email" placeholder="name@example.com"><br><br>
+
+<label>ID / CNIC Number <font color="red">*</font></label><br>
+<input type="text" placeholder="42101-1234567-1"><br><br>
+
+<label>Occupation <font color="red">*</font></label><br>
+<input type="text"><br><br>
+
+<label>Marital Status:</label><br>
+<select>
+    <option>Select status</option>
+    <option>Single</option>
+    <option>Married</option>
+</select><br><br>
+
+<label>Are you retired?</label>
+<input type="radio" name="retired"> Yes
+<input type="radio" name="retired"> No
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>B. Type of Health Coverage</legend>
+
+<h4>Employee Coverage</h4>
+<input type="radio" name="employee"> Yes
+<input type="radio" name="employee"> No<br><br>
+
+<label>Employee Plan Choice</label><br>
+<select>
+    <option>Select plan</option>
+    <option>Basic Plan</option>
+    <option>Premium Plan</option>
+</select>
+
+<h4>Spouse Coverage</h4>
+<input type="radio" name="spouse"> Yes
+<input type="radio" name="spouse"> No<br><br>
+
+<label>Spouse Plan Choice</label><br>
+<select>
+    <option>Select plan</option>
+    <option>Basic Plan</option>
+    <option>Premium Plan</option>
+</select>
+
+<h4>Children Coverage</h4>
+<input type="radio" name="children"> Yes
+<input type="radio" name="children"> No<br><br>
+
+<label>Children Plan Choice</label><br>
+<select>
+    <option>Select plan</option>
+    <option>Basic Plan</option>
+    <option>Premium Plan</option>
+</select>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>C. Spouse / Children Information</legend>
+
+<label>Dependent Name</label><br>
+<input type="text"><br><br>
+
+<label>ID / SSN</label><br>
+<input type="text"><br><br>
+
+<label>Relationship</label><br>
+<select>
+    <option>Select relationship</option>
+    <option>Spouse</option>
+    <option>Child</option>
+</select><br><br>
+
+<label>Birth Date</label><br>
+<input type="date"><br><br>
+
+<label>Age</label><br>
+<input type="number"><br><br>
+
+<label>Gender</label><br>
+<select>
+    <option>Select gender</option>
+    <option>Male</option>
+    <option>Female</option>
+</select>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>D. Policy Information</legend>
+
+<label>Units</label><br>
+<input type="text"><br><br>
+
+<label>Annual Premium</label><br>
+<input type="number"><br><br>
+
+<label>Payment Mode <font color="red">*</font></label><br>
+<select required>
+    <option>Select payment mode</option>
+    <option>Monthly</option>
+    <option>Yearly</option>
+</select><br><br>
+
+<label>Cash With Application</label><br>
+<input type="text"><br><br>
+
+<label>Planned Monthly Premium</label><br>
+<input type="text">
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>E. Required Document</legend>
+
+<p>Please attach your supporting document.</p>
+
+<label>Attach Document <font color="red">*</font></label><br>
+<input type="file" required>
+<p>Accepted formats: PDF, JPG, JPEG and PNG</p>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>F. Declaration</legend>
+
+<input type="checkbox" required>
+I confirm that the information provided is complete and accurate.
+<br><br>
+
+<label>Applicant Full Name / Signature <font color="red">*</font></label><br>
+<input type="text" required><br><br>
+
+<label>Application Date <font color="red">*</font></label><br>
+<input type="date" required><br><br>
+
+<input type="reset" value="Clear Form">
+<input type="submit" value="Submit Application">
+
+</fieldset>
+
+</form>
+
+</body>
+</html>
